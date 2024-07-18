@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <%= stylesheet_link_tag "style", "data-turbo-track": "reload" %>
+  </head>
+  <body>
+    <!-- <div class="top-right-ellipse"></div> -->
+    <div class="content">
+      <header>
+        <div class="left-header">
+          <h1>OUR TEAM</h1>
+          <p class="desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sed
+            accusantium aut quod, nulla iure similique fuga nobis pariatur eum
+            officia modi ab vel veniam reprehenderit nam eos harum amet?
+          </p>
+        </div>
+
+        <%= image_tag "img1.png", class: "header-img"%>
+        
+        <div class="top-right-ellipse"></div>
+      </header>
+
+      <div class="team">
+        
+        <%= link_to pages_jimmy_path do %>
+          <div class="member">
+            <%= image_tag "pfp2.jpg", class: "pfp"%>
+            <p class="fname">Jimmy</p>
+            <p class="lname">Nassar</p>
+          </div>
+          <% end %>
+        
+
+        <a href="roy.html">
+          <div class="member">
+            <%= image_tag "pfp2.jpg", class: "pfp"%>
+            <p class="fname">Jimmy</p>
+            <p class="lname">Nassar</p>
+          </div>
+        </a>
+
+        <a href="#">
+          <div class="member">
+           <%= image_tag "pfp2.jpg", class: "pfp"%>
+            <p class="fname">Jimmy</p>
+            <p class="lname">Nassar</p>
+          </div>
+        </a>
+
+        <a href="jimmy.html">
+          <div class="member">
+            <%= image_tag "pfp2.jpg", class: "pfp"%>
+            <p class="fname">Jimmy</p>
+            <p class="lname">Nassar</p>
+          </div>
+        </a>
+
+        <a href="#">
+          <div class="member">
+            <%= image_tag "pfp2.jpg", class: "pfp"%>
+            <p class="fname">Jimmy</p>
+            <p class="lname">Nassar</p>
+          </div>
+        </a>
+
+        <a href="#">
+          <div class="member">
+            <%= image_tag "pfp2.jpg", class: "pfp"%>
+            <p class="fname">Jimmy</p>
+            <p class="lname">Nassar</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="bottom-left-ellipse"></div>
+  </body>
+</html>
+
